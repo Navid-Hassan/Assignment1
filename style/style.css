@@ -87,3 +87,84 @@ body{
     height: 203px;
     width: 517px;
 }
+/* Section-2 */
+.sec2 h2 {
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.section2 .bold {
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    height: 97px;
+    width: 162px;
+}
+
+.section2 .light {
+    font-size: 20px;
+    color: black;
+}
+
+.sec2again {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec2 {
+    text-align: center;
+
+    margin-top: 116px;
+    padding: 50px;
+    height: 306px;
+
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* Section-3 */
+.sec3 .img{
+    display: flex;
+}
+.sec3again{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    
+}
+.section3{
+    height: 243px;
+    width: 467px;
+    background-color: white;
+    padding-left: 24px;
+    padding-top: 24px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+    text-align: left;
+}
+.sec3{
+    text-align: center;
+}
+.sec3 .revdetail{
+    display: flex;
+    gap: 10px;
+}
+.revdetail{
+    text-align: left;
+    padding-top: 24px;
+}
+.revdetail img{
+    border-radius: 50%;
+}
+.revdetail .name{
+    color: #757575;
+}
+.revdetail .date{
+    color: #B3B3B3;
+}
